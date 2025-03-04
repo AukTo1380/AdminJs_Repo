@@ -1,0 +1,39 @@
+/* Custom AdminJS Overrides */
+.adminjs_Table {
+  @apply rounded-lg overflow-hidden shadow-sm;
+}
+
+.adminjs_Table th {
+  @apply bg-blue-50 text-slate-700 font-semibold py-4 px-6;
+}
+
+.adminjs_Table td {
+  @apply py-3 px-6 border-t border-slate-100;
+}
+
+.adminjs_Sidebar {
+  @apply bg-slate-800 border-r border-slate-700;
+}
+
+.adminjs_Button-primary {
+  @apply bg-blue-600 hover:bg-blue-700 text-white font-medium;
+}
+
+.adminjs_Button-danger {
+  @apply bg-red-500 hover:bg-red-600 text-white font-medium;
+}
+
+.adminjs_Header {
+  @apply bg-white shadow-sm;
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .adminjs_Table {
+    @apply bg-slate-800 text-white;
+  }
+  
+  .adminjs_Table th {
+    @apply bg-slate-700 text-slate-200;
+  }
+}

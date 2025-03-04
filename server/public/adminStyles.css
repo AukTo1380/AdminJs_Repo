@@ -1,0 +1,46 @@
+/* Custom styles for AdminJS */
+body {
+  font-family: "Poppins", sans-serif !important;
+  background-color: #0f172a !important; /* Dark background */
+}
+
+.adminjs_App {
+  background-color: #1e293b !important; /* Sidebar background */
+}
+
+.adminjs_Login {
+  background-image: url("/galaxy-sky-3840x2160-background-cosmic-background-27079.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+/* Custom Navigation Bar */
+.adminjs_Navbar {
+  background: linear-gradient(90deg, #2563eb, #1d4ed8, #1e40af); /* Cool gradient */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-bottom: 3px solid #facc15; /* Accent yellow bottom border */
+}
+
+/* Navbar Text Color */
+.adminjs_Navbar a {
+  color: #e5e7eb !important; /* Light text */
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+/* Navbar Links Hover */
+.adminjs_Navbar a:hover {
+  color: #facc15 !important; /* Cool yellow accent on hover */
+}
+
+/* Admin Panel Buttons */
+.adminjs_Button {
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+}
+
+.adminjs_Button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(37, 99, 235, 0.5);
+}
